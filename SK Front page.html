@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangguniang Kabataan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .content {
+            text-align: center;
+            color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+        .logos {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-bottom: 20px;
+        }
+        .logos img {
+            width: 150px;
+            height: auto;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: yellow;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .login-btn {
+            background-color: yellow;
+            color: black;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: gold;
+        }
+        .signup-text {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-icon {
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            margin: 5px 0;  
+        }
+        .social-icon i {
+            margin-right: 10px;
+        }
+        .disclaimer {
+            font-size: 0.8rem;
+            margin-top: 20px;
+            color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="logos">
+                <img src="SK logo.png" alt="Logo 1">
+                <img src="QCU logo.png" alt="Logo 2">
+                <img src="Com. logo.png" alt="Logo 3">
+            </div>
+            <h1>SANGGUNIANG KABATAAN</h1>
+            <p>“KABATAAN KIKILOS PARA SA KAPALIGIRAN”</p>
+            <button class="login-btn">LOGIN</button>
+            <p class="signup-text">Don't have an account yet?</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i> Sangguniang Kabataan Barangay Commonwealth</a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i> skcommonwealth</a>
+                <a href="#" class="social-icon"><i class="fab fa-x-twitter"></i> officialSKComm</a>
+            </div>
+            <p class="disclaimer">Disclaimer: Please be advised that this website is not intended for use in any campaign-related activities.</p>
+        </div>
+    </div>
+</body>
+</html>
